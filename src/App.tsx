@@ -1,11 +1,13 @@
 import Hero from "./components/hero"
-import Pedido from "./components/pedido/index"
+import Nos from "./components/nos"
+import Pedido from "./components/pedido/"
 
 function App() {
 
   return (
     <>
       <Hero />
+      <Nos />
       <Pedido />
     </>
   )
