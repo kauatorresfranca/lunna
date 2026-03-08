@@ -12,6 +12,10 @@ import foto8 from '../../assets/images/bombar.jpg'
 import foto9 from '../../assets/images/f1.jpg'
 import foto11 from '../../assets/images/barra_bruno.jpg'
 import foto12 from '../../assets/images/mais grude.jpg'
+import foto13 from '../../assets/images/csa.jpeg'
+import foto14 from '../../assets/images/cinema.jpeg'
+import foto15 from '../../assets/images/barra.jpeg'
+import foto16 from '../../assets/images/grude_carro.jpeg'
 
 interface Evento {
     data: string;
@@ -93,6 +97,30 @@ const Nos = () => {
             titulo: "mais grude",
             descricao: "for ever.",
             foto: foto12
+        },
+        {
+            data: "6 Fev 2026",
+            titulo: "Cineminha + briga",
+            descricao: "cineminha + bk + briga",
+            foto: foto14
+        },
+        {
+            data: "14 Fev 2026",
+            titulo: "Barra para ver meu amor",
+            descricao: "cineminha + bk + briga",
+            foto: foto15
+        },
+        {
+            data: "21 Fev 2026",
+            titulo: "Jogo do csa",
+            descricao: "dor, depressão, sofrimnento, mas com você lá foi menos pior",
+            foto: foto13
+        },
+        {
+            data: "07 Mar 2026",
+            titulo: "Procurando o taxi",
+            descricao: '"uma praça cheia de mendigos"',
+            foto: foto16
         },
     ];
 

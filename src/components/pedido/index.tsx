@@ -26,7 +26,7 @@ const Pedido = () => {
                 confetti({ ...defaults, particleCount, origin: { x: Math.random(), y: Math.random() - 0.2 } });
             }, 250);
 
-            alert("❤️ CONTRATO ASSINADO COM SUCESSO! Eu te amo!");
+            alert("❤️ CONTRATO ASSINADO! Eu te amo, lunna ribeiro!");
         } else {
             alert("⚠️ ERRO: Leia as cláusulas extras antes de assinar. O sistema detectou falta de atenção aos detalhes picantes!");
         }
@@ -66,7 +66,7 @@ const Pedido = () => {
 
     return (
         <S.Pedido>
-            <h2>Bom, se você está lendo isso, é porque logicamente aceitou namorar comigo, mas quero saber se você aceita o vigente contrato abaixo:</h2>
+            <h2>Bom, se você está lendo isso, é porque logicamente aceitou namorar comigo <b>(você não tinha escolha, vai passar o resto da sua vida comigo)</b>, mas quero saber se você aceita o vigente contrato abaixo:</h2>
             
             <S.ToggleButton onClick={() => setIsOpen(!isOpen)} $isOpen={isOpen}>
                 <FileText size={20} />

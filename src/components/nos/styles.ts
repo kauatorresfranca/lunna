@@ -85,7 +85,7 @@ export const Card = styled.div`
 
   .image-container {
     width: 100%;
-    height: 200px;
+    height: 350px;
     border-radius: 12px;
     overflow: hidden;
     margin-bottom: 15px;
