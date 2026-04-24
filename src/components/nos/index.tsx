@@ -16,6 +16,9 @@ import foto13 from '../../assets/images/csa.jpeg'
 import foto14 from '../../assets/images/cinema.jpeg'
 import foto15 from '../../assets/images/barra.jpeg'
 import foto16 from '../../assets/images/grude_carro.jpeg'
+import foto17 from '../../assets/images/foto17.jpeg'
+import foto18 from '../../assets/images/foto18.jpeg'
+import foto19 from '../../assets/images/foto19.jpeg'
 
 interface Evento {
     data: string;
@@ -122,6 +125,24 @@ const Nos = () => {
             descricao: '"uma praça cheia de mendigos"',
             foto: foto16
         },
+        {
+            data: "08 Abr 2026",
+            titulo: "Rolê no shops com dona tici",
+            descricao: '"role com tici e shops para procurar roupa do casamento"',
+            foto: foto17
+        },
+        {
+            data: "13 Abr 2026",
+            titulo: "corridinha da orla + patinete",
+            descricao: '"25 reais mais bem gastos heheeeu"',
+            foto: foto18
+        },
+        {
+            data: "22 Abr 2026",
+            titulo: "ROLÊ EM SMCCCC + DONA LUCIA",
+            descricao: '"dia todo grudados, e ainda teve presença ilustre de dona lucia ( OFICIALMENTE MINHA SOGRA !!!) "',
+            foto: foto19
+        },
     ];
 
     return (
@@ -131,7 +152,7 @@ const Nos = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
             >
-                Nossa Linha do Tempo
+                Nossa trajetória (até o pedido)
             </motion.h1>
 
             <S.Timeline>
