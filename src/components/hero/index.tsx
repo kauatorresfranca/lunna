@@ -7,7 +7,7 @@ const Hero = () => {
       <img src={coracao} alt="" />
         <h1>LUNNA</h1>
         <h3>Você é meu <span>1001% de certeza</span></h3>
-        <p>Desde o primeiro dia que te vi (e até bem antes kkkk), eu soube que você não seria qualquer uma para mim. cada segundo ao seu lado é especial, minha autista favorita </p>
+        <p>Desde o primeiro dia que te vi (e até bem antes kkkk) eu soube que você não seria qualquer uma para mim. cada segundo ao seu lado é especial, minha autista favorita </p>
     </S.Hero>
   )
 }
